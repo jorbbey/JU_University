@@ -1,18 +1,18 @@
 // Toggle menu
 const responsiveMenuSlider =  function() {
 
-var menuItems = document.getElementById('menuLinks');
-var menuClose = document.getElementById('closeMenu');
-var menuOpen = document.getElementById('openMenu');
+const menuItems = document.getElementById('menuLinks');
+const menuClose = document.getElementById('closeMenu');
+const menuOpen = document.getElementById('openMenu');
 
 
-    var menuSlideOpen = function () {
+    let menuSlideOpen = function () {
 
             menuItems.style.right = '10px';
         
     };
 
-    var menuSlideClose = function () {
+    let menuSlideClose = function () {
 
             menuItems.style.right = '-100%';
     };
